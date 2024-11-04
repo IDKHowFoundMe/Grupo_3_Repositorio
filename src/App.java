@@ -13,10 +13,21 @@ import automatas.Automata5;
 import automatas.Compilador1;
 import automatas.Validador;
 import automatas.Validador2;
-
+public class Grupo3 {
+    public Grupo3() {
+        System.out.println("Grupo 3");
+        System.out.println("Los integrantes:");
+        System.out.println("Lopez Sebastian");
+        System.out.println("Montenegro Letizia");
+        System.out.println("Morales Alejandro");
+        System.out.println("Moreno Emilia");
+        System.out.println("Morillo Matias");
+    }
+}
 public class App {
     public static Scanner sc= new Scanner (System.in);
     public static void main(String[] args) throws Exception {
+        new Grupo3();
         Factorial oF = new Factorial();
         oF.g3_imprimirFactorial(sc);
         Suma oS = new Suma();
