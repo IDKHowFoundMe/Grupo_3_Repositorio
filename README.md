@@ -24,7 +24,13 @@ Fotos patrones Numericos Automatas y Recursividad
 ![WhatsApp Image 2024-11-04 at 1 54 32 PM (1)](https://github.com/user-attachments/assets/0e302c47-0ea8-44b7-a7b9-456bc3f84043)
 ![WhatsApp Image 2024-11-04 at 1 55 02 PM](https://github.com/user-attachments/assets/29828796-e45d-4288-8b25-0bf316d47c85)
 ![WhatsApp Image 2024-11-04 at 1 54 39 PM](https://github.com/user-attachments/assets/87a44257-fdf6-445b-9ac5-235af569e667)
-
+Fotos patrones Figuras
+![image](https://github.com/user-attachments/assets/de3d3c1c-21bb-425e-8ce2-3507ce6cfa63)
+![image](https://github.com/user-attachments/assets/9486af4e-864f-4788-9594-eb605742189e)
+![image](https://github.com/user-attachments/assets/5fe17f65-2eea-41ab-83ef-2429ca6d42a0)
+![image](https://github.com/user-attachments/assets/c83d05ed-99f8-4e87-a8e5-1139c56da73a)
+![image](https://github.com/user-attachments/assets/91371eed-65df-424f-b34b-20db07555683)
+![image](https://github.com/user-attachments/assets/d34b5e87-1814-4510-b078-78e1895dd361)
 
 
 
