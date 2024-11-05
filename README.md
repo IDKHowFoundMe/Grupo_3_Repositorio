@@ -34,3 +34,16 @@ Fotos patrones Figuras
 ![Imagen de WhatsApp 2024-11-05 a las 01 57 57_217a3dff](https://github.com/user-attachments/assets/e4e8d4e4-86fa-40fc-9ec1-deb2192a8292)
 ![Imagen de WhatsApp 2024-11-05 a las 01 57 57_393d63c9](https://github.com/user-attachments/assets/19c7d0cb-0a56-4a54-90a4-fe7f09a0731e)
 ![Imagen de WhatsApp 2024-11-05 a las 01 57 57_b7643d2b](https://github.com/user-attachments/assets/d256ef58-882a-477c-8d93-81458d2bfd50)
+Fotos delay
+![WhatsApp Image 2024-11-05 at 7 22 59 AM](https://github.com/user-attachments/assets/342f59f8-3ec6-43f8-bbe5-c68edf135947)
+![WhatsApp Image 2024-11-05 at 7 23 00 AM](https://github.com/user-attachments/assets/2a1771b3-b1a6-4284-ac13-ae63424891b8)
+![WhatsApp Image 2024-11-05 at 7 23 00 AM (1)](https://github.com/user-attachments/assets/ce7d748d-2878-4d24-8120-553a06394353)
+![WhatsApp Image 2024-11-05 at 7 23 00 AM (2)](https://github.com/user-attachments/assets/4f2a308f-07b2-440b-9ae1-19e56901199e)
+![WhatsApp Image 2024-11-05 at 7 23 01 AM](https://github.com/user-attachments/assets/c59987ad-d6ff-4864-8fde-ca180edd6811)
+![WhatsApp Image 2024-11-05 at 7 23 03 AM](https://github.com/user-attachments/assets/04e785ab-4a7a-46fa-9a30-8130bcca8739)
+
+
+
+
+
+
