@@ -57,6 +57,14 @@ public class App {
         oV.g3_validarEntrada(sc);
         Validador2 oV2= new Validador2();
         oV2.g3_imprimirContraseña(sc);
+
+        System.out.print("Ingresa el tamaño del cuadrado: ");
+        int tamano = scanner.nextInt();
+        
+        FIGURAS_MATIAS_MORILLO cuadrado = new FIGURAS_MATIAS_MORILLO();
+        cuadrado.imprimirCuadrado(tamano);
+        
+        scanner.close();
         
     }
 }
