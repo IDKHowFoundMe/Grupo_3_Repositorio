@@ -31,6 +31,6 @@ Fotos patrones Figuras
 ![image](https://github.com/user-attachments/assets/c83d05ed-99f8-4e87-a8e5-1139c56da73a)
 ![image](https://github.com/user-attachments/assets/91371eed-65df-424f-b34b-20db07555683)
 ![image](https://github.com/user-attachments/assets/d34b5e87-1814-4510-b078-78e1895dd361)
-
-
-
+![Imagen de WhatsApp 2024-11-05 a las 01 57 57_217a3dff](https://github.com/user-attachments/assets/e4e8d4e4-86fa-40fc-9ec1-deb2192a8292)
+![Imagen de WhatsApp 2024-11-05 a las 01 57 57_393d63c9](https://github.com/user-attachments/assets/19c7d0cb-0a56-4a54-90a4-fe7f09a0731e)
+![Imagen de WhatsApp 2024-11-05 a las 01 57 57_b7643d2b](https://github.com/user-attachments/assets/d256ef58-882a-477c-8d93-81458d2bfd50)
