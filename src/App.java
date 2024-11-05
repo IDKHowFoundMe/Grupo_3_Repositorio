@@ -29,6 +29,22 @@ import array.array3;
 import array.array4;
 import array.array5;
 import figuras.FIGURAS_MATIAS_MORILLO;
+import java.util.Random;
+import java.util.Scanner;
+import Loading.L01;
+import Loading.L02;
+import Loading.L03;
+import Loading.L04;
+import Loading.L05;
+import Loading.L06;
+import Loading.L07;
+import Loading.L08;
+import Loading.L09;
+import Loading.L010;
+import Loading.L011;
+import Loading.L012;
+import Loading.L013;
+
 
 public class Grupo3 {
     public Grupo3() {
@@ -44,6 +60,11 @@ public class Grupo3 {
 public class App {
     public static Scanner sc= new Scanner (System.in);
     public static void main(String[] args) throws Exception {
+        int op=0;
+        int i=0;
+        Scanner scanner = new Scanner(System.in);
+        @SuppressWarnings("resource")
+        Scanner teclado=new Scanner(System.in);
         new Grupo3();
         Factorial oF = new Factorial();
         oF.g3_imprimirFactorial(sc);
@@ -126,6 +147,197 @@ public class App {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+         System.out.println("Menú Delay");
+        System.out.println("Ingrese una opción: ");
+        do {
+
+            System.out.println("1 - AppL01");
+            System.out.println("2 - AppL02");
+            System.out.println("3 - AppL03");
+            System.out.println("4 - AppL04");
+            System.out.println("5 - AppL05");
+            System.out.println("6 - AppL06");
+            System.out.println("7 - AppL07");
+            System.out.println("8 - AppL08");
+            System.out.println("9 - AppL09");
+            System.out.println("10 - AppL010");
+            System.out.println("11 - AppL011");
+            System.out.println("12 - AppL012");
+            System.out.println("13 - AppL013");
+    
+            op=Integer.parseInt(teclado.next());
+        }while (op>13);               
+       
+        switch(op){
+            case 1: 
+                L01 l01=new L01();
+                l01.tiempo=100;
+                //int i=0;
+                while(i<=100){
+                    l01.simbolo='\\';
+                    l01.valor=i;
+                    l01.g3_mostrar();
+                    l01.g3_esperar();
+                    i++;
+                    l01.simbolo='|';
+                    l01.valor=i;
+                    l01.g3_mostrar();
+                    l01.g3_esperar();
+                    i++;
+                    l01.simbolo='/';
+                    l01.valor=i;
+                    l01.g3_mostrar();
+                    l01.g3_esperar();
+                    i++;
+                    l01.simbolo='-';
+                    l01.valor=i;
+                    l01.g3_mostrar();
+                    l01.g3_esperar();
+                    i++;
+                    l01.simbolo='\\';
+                    l01.valor=i;
+                    l01.g3_mostrar();
+                    l01.g3_esperar();
+                    i++;
+                    l01.simbolo='|';
+                    l01.valor=i;
+                    l01.g3_mostrar();
+                    l01.g3_esperar();
+                    i++;
+                    l01.simbolo='/';
+                    l01.valor=i;
+                    l01.g3_mostrar();
+                    l01.g3_esperar();
+                    i++;
+                    l01.simbolo='-';
+                    l01.valor=i;
+                    l01.g3_mostrar();
+                    l01.g3_esperar();
+                    i++;
+                }
+                System.exit(1);
+
+            case 2: 
+                L02 l02=new L02();
+                //Scanner scanner = new Scanner(System.in);
+                System.out.print("Ingresa un carácter: ");
+                char caracter = scanner.next().charAt(0);     
+                scanner.close();
         
+                l02.caracter=caracter;
+                l02.tiempo=1000;
+                l02.g3_mostrar();
+                System.exit(1);
+
+
+            case 3: 
+                L03 l03=new L03();
+                //Scanner scanner = new Scanner(System.in);
+                System.out.print("Ingresa un carácter: ");
+                char caracter3 = scanner.next().charAt(0);     
+                scanner.close();
+                l03.caracter=caracter3;
+                l03.tiempo=1000;
+                l03.g3_mostrar();
+                l03.g3_esperar();
+                System.exit(1);
+
+            case 4:
+                L04 l04=new L04();
+                l04.tiempo=100;
+                //int i=0;
+                while(i<=100){
+                    l04.simbolo="0oo";
+                    l04.valor=i;
+                    l04.g3_mostrar();
+                    l04.g3_esperar();
+                    i++;
+                    l04.simbolo="o0o";
+                    l04.valor=i;
+                    l04.g3_mostrar();
+                    l04.g3_esperar();
+                    i++;
+                    l04.simbolo="oo0";
+                    l04.valor=i;
+                    l04.g3_mostrar();
+                    l04.g3_esperar();
+                    i++;
+                    l04.simbolo="o0o";
+                    l04.valor=i;
+                    l04.g3_mostrar();
+                    l04.g3_esperar();
+                    i++;
+                }    
+                System.exit(1);
+
+            case 5:
+                L05 l05=new L05();
+                l05.tiempo=1000;
+                l05.g3_mostrar();
+                l05.g3_esperar();
+                System.exit(1);
+
+            case 6:
+                L06 l06=new L06();
+                l06.tiempo=1000;
+                l06.g3_mostrar();  
+                System.exit(1);  
+
+            case 7:
+                L07 l07=new L07();
+                l07.tiempo=1000;
+                l07.g3_mostrar();
+                l07.g3_esperar(); 
+                System.exit(1);   
+
+            case 8:
+                L08 l08=new L08();
+                l08.tiempo=1000;
+                l08.g3_pedirnombres();
+                l08.g3_mostrar();
+                System.exit(1);
+             
+            case 9:
+                L09 l09=new L09();
+                l09.tiempo=1000;
+                l09.g3_pedirnombres();
+                l09.g3_mostrar();
+                System.exit(1);
+
+            case 10:
+                L010 l010=new L010();
+                l010.tiempo=1000;
+                System.out.println("Hola L10");
+                Random r = new Random();
+                int kb = r.nextInt(100)+10; //Genera número randómico entre 10 y 100
+                System.out.println("Número generado" +" "+ kb);
+                l010.g3_esperar();
+                l010.g3_mostrar();
+                l010.g3_esperar();
+                System.exit(1);
+            
+            case 11:
+                L011 l011=new L011();
+                l011.tiempo=1000;
+                l011.g3_mostrar();
+                l011.g3_esperar();   
+                System.exit(1); 
+
+            case 12: 
+                L012 l012=new L012();
+                l012.numerobarras=10;
+                l012.alturamaxima=8;
+                l012.tiempo=1000;
+                l012.g3_mostrar();
+                System.exit(1);
+
+            case 13:
+                L013 l013=new L013();
+                l013.tiempo=100;
+                l013.g3_mostrar();
+                System.exit(1);
+
+            }//fin switch
+
     }
 }
