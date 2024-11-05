@@ -13,6 +13,15 @@ import automatas.Automata5;
 import automatas.Compilador1;
 import automatas.Validador;
 import automatas.Validador2;
+import g3_cadenaCaracter.cadenaCaracter1;
+import g3_cadenaCaracter.cadenaCaracter2;
+import g3_cadenaCaracter.cadenaCaracter3;
+import g3_cadenaCaracter.cadenaCaracter4;
+import g3_cadenaCaracter.cadenaCaracter5;
+import g3_cadenaCaracter.cadenaCaracter6;
+import g3_cadenaCaracter.cadenaCaracter7;
+import g3_cadenaCaracter.cadenaCaracter8;
+import g3_cadenaCaracter.cadenaCaracter9;
 import figuras.FIGURAS_MATIAS_MORILLO;
 
 public class Grupo3 {
@@ -65,6 +74,32 @@ public class App {
         
         FIGURAS_MATIAS_MORILLO cuadrado = new FIGURAS_MATIAS_MORILLO();
         cuadrado.imprimirCuadrado(tamano);
+
+        cadenaCaracter1 cadena = new cadenaCaracter1();
+        cadena.g3_imprimircadenaCaracter1();
+
+        cadenaCaracter2  cadena2 = new cadenaCaracter2();
+        cadena2.g3_imprimircadenaCaracter2();
+
+        cadenaCaracter3 cadena3 = new cadenaCaracter3();
+        cadena3.g3_imprimircadenaCaracter3();
+
+        cadenaCaracter4 cadena4 =  new cadenaCaracter4();
+        cadena4.g3_imprimircadenaCaracter4();
+
+        cadenaCaracter5 cadena5 = new cadenaCaracter5();
+        cadena5.g3_imprimircadenaCaracter5();
+
+        cadenaCaracter6 cadeba6 =  new cadenaCaracter6();
+        cadeba6.g3_imprimircadenaCaracter6();
+
+        cadenaCaracter7 cadena7 = new cadenaCaracter7();
+        cadena7.g3_imprimircadenaCaracter7();
+
+        new cadenaCaracter8();
+
+        cadenaCaracter9 cadena9 =  new cadenaCaracter9();
+        cadena9.g3_imprimircadenaCaracter9();
         
     }
 }
