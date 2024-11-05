@@ -172,7 +172,6 @@ public class App {
             case 1: 
                 L01 l01=new L01();
                 l01.tiempo=100;
-                //int i=0;
                 while(i<=100){
                     l01.simbolo='\\';
                     l01.valor=i;
@@ -219,7 +218,6 @@ public class App {
 
             case 2: 
                 L02 l02=new L02();
-                //Scanner scanner = new Scanner(System.in);
                 System.out.print("Ingresa un carácter: ");
                 char caracter = scanner.next().charAt(0);     
                 scanner.close();
@@ -232,7 +230,6 @@ public class App {
 
             case 3: 
                 L03 l03=new L03();
-                //Scanner scanner = new Scanner(System.in);
                 System.out.print("Ingresa un carácter: ");
                 char caracter3 = scanner.next().charAt(0);     
                 scanner.close();
@@ -245,7 +242,6 @@ public class App {
             case 4:
                 L04 l04=new L04();
                 l04.tiempo=100;
-                //int i=0;
                 while(i<=100){
                     l04.simbolo="0oo";
                     l04.valor=i;
@@ -309,7 +305,7 @@ public class App {
                 l010.tiempo=1000;
                 System.out.println("Hola L10");
                 Random r = new Random();
-                int kb = r.nextInt(100)+10; //Genera número randómico entre 10 y 100
+                int kb = r.nextInt(100)+10;
                 System.out.println("Número generado" +" "+ kb);
                 l010.g3_esperar();
                 l010.g3_mostrar();
@@ -337,7 +333,7 @@ public class App {
                 l013.g3_mostrar();
                 System.exit(1);
 
-            }//fin switch
+            }
 
     }
 }
