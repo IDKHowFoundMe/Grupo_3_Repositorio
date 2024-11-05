@@ -6,7 +6,7 @@ public class cadenaCaracter2{
         int contador2 = 0;
         for (int i = 0; i < frase.length(); i++) {
             char c = frase.charAt(i);
-            if (Character.isLetter(c)) {
+            if (c != 'a' || c != 'e' || c != 'i' || c != 'o' || c != 'u') {
                 contador2++;
             }
         }
