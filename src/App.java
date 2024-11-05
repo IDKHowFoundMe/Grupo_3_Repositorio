@@ -13,6 +13,8 @@ import automatas.Automata5;
 import automatas.Compilador1;
 import automatas.Validador;
 import automatas.Validador2;
+import figuras.FIGURAS_MATIAS_MORILLO;
+
 public class Grupo3 {
     public Grupo3() {
         System.out.println("Grupo 3");
@@ -63,8 +65,6 @@ public class App {
         
         FIGURAS_MATIAS_MORILLO cuadrado = new FIGURAS_MATIAS_MORILLO();
         cuadrado.imprimirCuadrado(tamano);
-        
-        scanner.close();
         
     }
 }
