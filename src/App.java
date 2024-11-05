@@ -22,6 +22,12 @@ import g3_cadenaCaracter.cadenaCaracter6;
 import g3_cadenaCaracter.cadenaCaracter7;
 import g3_cadenaCaracter.cadenaCaracter8;
 import g3_cadenaCaracter.cadenaCaracter9;
+import array.array1;
+import array.array1;
+import array.array2;
+import array.array3;
+import array.array4;
+import array.array5;
 import figuras.FIGURAS_MATIAS_MORILLO;
 
 public class Grupo3 {
@@ -100,6 +106,26 @@ public class App {
 
         cadenaCaracter9 cadena9 =  new cadenaCaracter9();
         cadena9.g3_imprimircadenaCaracter9();
+
+        array1 g3_array1 = new array1();
+        g3_array1.g3_imprimirarray1();
+
+        array2 arreglo = new array2();
+        arreglo.g3_imprimirarray2();
+        arreglo.g3_array2();
+
+        array3 arreglo2 = new array3();
+        arreglo2.g3_imprimirarray3();
+
+        array4 arreglo4 =  new array4();
+        arreglo4.g3_imprimirarray4();
+
+        try {
+            array5 matrizAleatoria = new array5();
+            matrizAleatoria.g3_imprimirarray5();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         
     }
 }
