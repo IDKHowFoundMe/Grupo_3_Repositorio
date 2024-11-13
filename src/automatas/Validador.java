@@ -33,6 +33,7 @@ public class Validador {
     public int g3_validarPalabra(String entrada) {
         int estado= 0;
         int columna=0;
+       int mt[][] = {
             { 1,  -1, -1,  4, 6, -1, -1, -1, -1, -1, -1},
             {-1,   2, -1, -1, -1, -1, -1, -1, -1, -1, -1},
             {-1,  -1,  3, -1, -1, -1, -1, -1, -1, -1, -1},
