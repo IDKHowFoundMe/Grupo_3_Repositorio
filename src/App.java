@@ -1,3 +1,26 @@
+import seriesNumericas.serieFibonacci;
+import seriesNumericas.serieImparYCero;
+import seriesNumericas.serieFraccionImpar;
+import seriesNumericas.serieFraccionPar;
+import seriesNumericas.serieNumerosPrimos;
+import seriesNumericas.serieCuadrados;
+import seriesNumericas.serieSumaTres;
+import seriesNumericas.serieSumaCinco;
+import seriesNumericas.serieMultiplicaDos;
+import seriesNumericas.serieMultiplicaTres;
+import seriesNumericas.serieSumaPares;
+
+import seriesCaracteres.serieMasMenos;
+import seriesCaracteres.serieMasFibonacci;
+import seriesCaracteres.serieMasDos;
+import seriesCaracteres.serieCaracterEcuacion;
+import seriesCaracteres.serieBarras;
+import seriesCaracteres.serieAlfabeto;
+import seriesCaracteres.serieAlfabetoCaracter;
+import seriesCaracteres.serieAlfabetoPar;
+import seriesCaracteres.serieAlfabetoImpar;
+import seriesCaracteres.serieUltimoAlfabeto;
+
 import recursividad.Factorial;
 import recursividad.Suma;
 import recursividad.Multiplicacion;
@@ -60,6 +83,95 @@ public class Grupo3 {
 public class App {
     public static Scanner sc= new Scanner (System.in);
     public static void main(String[] args) throws Exception {
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingrese la cantidad de numeros de la primera serie que desea imprimir:");
+        serieFibonacci.main(args);
+    
+        System.out.print("Ingrese la cantidad de numeros de la segunda serie que desea imprimir: ");
+        int a = scanner.nextInt();
+        serieImparYCero.g3_imprimirSerieImparYCero(a);      
+
+        System.out.print("Ingrese la cantidad de numeros de la tercera serie que desea imprimir: ");
+        int b = scanner.nextInt();
+        serieFraccionImpar.g3_imprimirSerieFraccionImpar(b);
+
+        System.out.print("Ingrese la cantidad de numeros de la cuarta serie que desea imprimir: ");
+        int c = scanner.nextInt();
+        serieFraccionPar.g3_imprimirSerieFraccionPar(c);
+
+        System.out.print("Ingrese la cantidad de numeros de la quinta serie que desea imprimir: ");
+        int d = scanner.nextInt();
+        serieNumerosPrimos.g3_imprimirSeriePrimos(d);
+
+        System.out.print("Ingrese la cantidad de numeros de la sexta serie que desea imprimir: ");
+        int e = scanner.nextInt();
+        serieCuadrados.g3_imprimirSerieCuadrados(e);
+
+        System.out.print("Ingrese la cantidad de numeros de la septima serie que desea imprimir: ");
+        int f = scanner.nextInt();
+        serieSumaTres.g3_imprimirSerie(f);
+
+        System.out.print("Ingrese la cantidad de numeros de la octava serie que desea imprimir: ");
+        int g = scanner.nextInt();
+        serieSumaCinco.g3_imprimirSerie(g);
+
+        System.out.print("Ingrese la cantidad de numeros de la novena serie que desea imprimir: ");
+        int h = scanner.nextInt();
+        serieMultiplicaDos.g3_imprimirSerie(h);
+
+        System.out.print("Ingrese la cantidad de numeros de la decima serie que desea imprimir: ");
+        int i = scanner.nextInt();
+        serieMultiplicaTres.g3_imprimirSerie(i);
+
+        System.out.print("Ingrese la cantidad de numeros de la onceava serie que desea imprimir: ");
+        int j = scanner.nextInt();
+        serieSumaPares.g3_imprimirSerie(j);
+       
+
+        System.out.print("Ingrese la cantidad de caracteres que desea imprimir de la primera serie: ");
+        int k = scanner.nextInt();
+        serieMasMenos.g3_imprimirSerieMasMenos(k);
+
+        System.out.print("Ingrese la cantidad de caracteres que desea imprimir de la segunda serie: ");
+        int l = scanner.nextInt();
+        serieMasFibonacci.g3_imprimirSerie(l);
+
+        System.out.print("Ingrese la cantidad de caracteres que desea imprimir de la tercera serie: ");
+        int m = scanner.nextInt();
+        serieMasDos.g3_imprimirSerie(m);
+
+        System.out.print("Ingrese la cantidad de caracteres que desea imprimir de la cuarta serie: ");
+        int n = scanner.nextInt();
+        scanner.close();
+        serieCaracterEcuacion.g3_imprimirSerieCaracteres(n);
+
+        System.out.print("Ingrese la cantidad de caracteres que desea imprimir de la quinta serie: ");
+        int o = scanner.nextInt();
+        serieBarras.g3_imprimirSerieBarras(o);
+
+        System.out.print("Ingrese la cantidad de letras que desea imprimir de la sexta serie: ");
+        int p = scanner.nextInt();
+        serieAlfabeto.g3_imprimirSerieLetras(p);
+
+        System.out.print("Ingrese la cantidad de letras que desea imprimir de la septima serie: ");
+        int q = scanner.nextInt();
+        serieAlfabetoCaracter.g3_imprimirSerieAlfabetoCaracter(q);
+
+        System.out.print("Ingrese la cantidad de letras que desea imprimir de la octava serie: ");
+        int r = scanner.nextInt();
+        serieAlfabetoPar.g3_imprimirAlfabetoPar(r);
+
+        System.out.print("Ingrese la cantidad de letras que desea imprimir de la novena serie: ");
+        int s = scanner.nextInt();
+        serieAlfabetoImpar.g3_imprimirAlfabetoImpar(s);
+
+        System.out.print("Ingrese la cantidad de letras que desea imprimir de la decima serie: ");
+        int t = scanner.nextInt();
+        scanner.close();
+        serieUltimoAlfabeto.g3_imprimirSerieLetras(t);
+  
+
         int op=0;
         int i=0;
         Scanner scanner = new Scanner(System.in);
